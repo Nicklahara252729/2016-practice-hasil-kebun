@@ -1,0 +1,200 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0 auto;
+}
+header{
+    width:100%;
+    height: 150px;
+    background: #fff;
+    margin: 0 auto;
+}
+.banner{
+    width:1200px;
+    height: 150px;
+    background: #33A486;
+    margin: 0 auto;
+}
+.menu{
+    width: 100%;
+    height: 40px;
+    background: #18333A;
+}
+.besar{
+    width: 1200px;
+    height: 1300px;
+    margin: 0 auto;
+    
+}
+footer{
+    width: 100%;
+    height: 200px;
+    background: #33A486;
+}
+.atas{
+    width: 50px;
+    height: 50px;
+    background: #33A486;
+    text-decoration: none;
+    color: white;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    border-radius: 50%;
+    font-family: "calibri";
+    font-size: 20px;
+    display: none;
+    border: solid 1px white;
+}
+.atas p{
+    padding-top: 13px;
+    padding-left: 10px;
+}
+.dalammenu{
+    width: 1200px;
+    height: 100%;
+    background: white;
+    margin: 0 auto;
+}
+.dalammenu ul{
+    list-style: none;
+    padding-left: 20px;
+}
+.dalammenu li{
+    display: block;
+    float: left;
+    
+}
+.dalammenu li ul {
+    display: none;
+    position: absolute;
+}
+.dalammenu  ul li:hover ul{
+    display: block;
+}
+.dalammenu  ul li:hover ul{
+    display: block;
+}
+.dalammenu ul ul ul{
+    display: none;
+    position: absolute;
+}
+.dalamfooter{
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+    background: #33A486;
+}
+.dalamfooter table{
+    width: 100%;
+    height: 100%;
+    
+}
+.isifooter{
+    width:  397px;
+    height: 197px;
+    background: #33A486;
+    
+}
+.license{
+    width: 100%;
+    height: 30px;
+    background: #33A486;
+    color: white;
+    text-align: center;
+    font-family: "calibri";
+}
+.kiri{
+    width: 300px;
+    height: auto;
+    float: left;
+    position: absolute;
+}
+.kanan{
+    float: right;
+    width: 890px;
+    height: 100%;
+    
+}
+.isikanan1,.isikanan2,.isikanan13{
+    width: 100%;
+    height: auto;
+}
+.isikanan1{
+    border-left: solid 3px #18333A;
+}
+.isikanan2{
+    border-left: solid 3px #F8BE39;
+}
+.isikanan3{
+    border-left: solid 3px #00394D;
+}
+.isibuah{
+    width: 200px;
+    height: 200px;
+    margin-left: 12px;
+    margin-top: 10px;   
+}
+.isikiri1,.isikiri2,.isikiri3{
+    width: 280px;
+    height: 250px;
+    border: solid 1px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.isibuah img{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+.isibuah span{
+    width: 200px;
+    height: 161px;
+    background: rgba(0,0,0,0.5);
+    position: absolute;
+    margin-left: -200px;
+    transition:0.3s ease-in-out;
+    opacity: 0;
+    color: white;
+}
+.price{
+    position: absolute;
+    width: 200px;
+    height: 40px;
+    background: rgba(0,0,0,0.5);
+    margin-top: -46px;
+    border-radius: 0px 0px 5px 5px;
+    font-family: "calibri";
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+.price p{
+    padding-top: 7px;
+}
+.isibuah:hover span{
+    opacity: 1;
+}
+.pencarian{
+    position: absolute;
+    width: 400px;
+    height: 50px;
+    border-radius: 5px;
+    background: green;
+    display: none;
+}
+.cari:checked ~ div.pencarian{
+    animation: slide-in 0.5s ease;
+ animation-fill-mode: forwards;
+}
+@keyframes slide-in {
+ from {left: -280px;}
+ to {left: 0;}
+}
+
+@keyframes slide-out {
+ from {left: 0;}
+ to {left: -280px;}
+}
